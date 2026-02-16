@@ -38,20 +38,20 @@ pip install -r requirements.txt
 
 ## Dataset Structure
 
-Your dataset should follow this structure:
-```
 dataset/
+├── annotations/
+│   ├── train.json       # COCO annotations (for Mask R-CNN)
+│   ├── val.json         # COCO annotations (for Mask R-CNN)
+│   └── test.json        # COCO annotations (for Mask R-CNN)
 ├── train/
-│   └── images/
+│   ├── images/          # Training images (.tif format)
+│   └── labels/          # YOLO .txt label files (0=ecoli, 1=salmonella)
 ├── val/
-│   └── images/
-├── test/
-│   └── images/
-└── annotations/
-    ├── train.json
-    ├── val.json
-    └── test.json
-```
+│   ├── images/          # Validation images (.tif format)
+│   └── labels/          # YOLO .txt label files
+└── test/
+    ├── images/          # Test images (.tif format)
+    └── labels/          # YOLO .txt label files
 
 The annotation files should be in COCO format.
 
