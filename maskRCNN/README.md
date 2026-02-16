@@ -27,7 +27,7 @@ This repository contains a PyTorch implementation of Mask R-CNN for instance seg
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/vbek/bacteria-detection.git
 cd <bacteria-detection>
 ```
 
