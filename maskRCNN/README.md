@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Structure
-
+```
 dataset/
 ├── annotations/
 │   ├── train.json       # COCO annotations (for Mask R-CNN)
@@ -52,7 +52,7 @@ dataset/
 └── test/
     ├── images/          # Test images (.tif format)
     └── labels/          # YOLO .txt label files
-
+```
 The annotation files should be in COCO format.
 
 ## Configuration
