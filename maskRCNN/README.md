@@ -272,4 +272,4 @@ If you use this code, please cite the relevant papers for Mask R-CNN and PyTorch
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
