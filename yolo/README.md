@@ -314,10 +314,5 @@ If you use YOLOv8, please cite:
 
 ## License
 
-[Add your license here]
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
 
-## Support
-
-For issues related to:
-- **YOLOv8**: https://github.com/ultralytics/ultralytics/issues
-- **This code**: [Your contact/repo]
